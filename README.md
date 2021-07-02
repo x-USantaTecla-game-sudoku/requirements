@@ -8,7 +8,7 @@ Práctica Máster Desarrollo Julio - SudokuTeam
 
 ## Video Explicativo
 
-[Video](https://www.youtube.com/watch?v=-RluC5dIVlE)
+[![Video](https://img.youtube.com/vi/LET73Mnm0wY/0.jpg)](https://www.youtube.com/watch?v=LET73Mnm0wY)
 
 ## Modelo del dominio  
   
