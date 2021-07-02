@@ -3,9 +3,8 @@ Práctica Máster Desarrollo Julio - SudokuTeam
 
 **Índice**
 
-1. [Explicación] (#explicacion)
+1. [Explicación] (#explicación)
 2. [Modelo del dominio](#modelo-del-dominio)   
-3. [Versiones](#versiones)
 
 ## Explicación
 
