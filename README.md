@@ -12,7 +12,7 @@ Práctica Máster Desarrollo Julio - SudokuTeam
 
 ## Modelo del dominio  
   
-![Sudoku](requirements/docs/images/SudoTeam_Sudoku_DomainModel.png)  
+![Sudoku](requirements/docs/images/SudoTeam_Sudoku_DomainMode_v2.png)  
   
 ## Intefaz Gráfico
 
