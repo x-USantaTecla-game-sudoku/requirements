@@ -100,7 +100,7 @@ Enter a number: 7
 Enter a number: 1
  * Number 1 has already been assigned at this row.
 Enter a number: 6
- * Number 1 has already been assigned at this grid.
+ * Number 6 has already been assigned at this box.
 Enter a number: 4
 
    ╔═══════════╦═══════════╦═══════════╗
