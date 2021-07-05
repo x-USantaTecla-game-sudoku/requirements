@@ -26,26 +26,26 @@ Sudoku *--> Board
 
 Board *--> "9" Column
 Board *--> "9" Row
-Board *--> "9" Grid
+Board *--> "9" Box
 
 Column *-->"9" Square
 Row *-->"9" Square
-Grid *-->"9" Square
+Box *-->"9" Square
 
 Square o--> Symbol
 Square <|-- PlayableSquare
 Square <|-- FixedSquare
 
-Player --> Assignment
+Player ..> Assignment
 Assignment ..> PlayableSquare
-Assignment *--> Result
 Assignment ..> Symbol
+Assignment *--> Result
 
 Result <|-- WinnerResult
 Result <|-- InvalidResult
 Result ..> Column
 Result ..> Row
-Result ..> Grid
+Result ..> Box
 
 Symbol <|-- NullSymbol
 Symbol <|-- OneToNineSymbol
