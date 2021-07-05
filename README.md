@@ -40,11 +40,11 @@ Práctica Máster Desarrollo Julio - SudokuTeam
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select coordinate to assign: K10
- * Wrong coordinate
-Select coordinate to assign: H7
- * This coordinate has a fixed value
-Select coordinate to assign: H8
+Select a square to assign: K10
+ * Wrong square
+Select a square to assign: H7
+ * This square has a fixed value
+Select a square to assign: H8
 Enter a number: 10
  * Not a valid number {1..9}
 Enter a number: 2
@@ -70,7 +70,7 @@ Enter a number: 2
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select coordinate to assign: B2
+Select a square to assign: B2
 Enter a number: 8
 
    ╔═══════════╦═══════════╦═══════════╗
@@ -94,7 +94,7 @@ Enter a number: 8
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select coordinate to assign: H8
+Select a square to assign: H8
 Enter a number: 7
  * Number 7 has already been assigned at this column.
 Enter a number: 1
@@ -149,7 +149,7 @@ Enter a number: 4
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select coordinate to assign: G6
+Select a square to assign: G6
 Enter a number: 4
 
    ╔═══════════╦═══════════╦═══════════╗
