@@ -1,0 +1,59 @@
+@startuml SudoTeam_Sudoku_DomainModel
+
+title SudoTeam_Sudoku_DomainModel_v3
+
+!define MAIN LightSeaGreen
+skinparam Class {
+	BackgroundColor	White
+	BorderColor	MAIN
+	FontName	Segoe UI
+	FontSize	14
+    FontStyle bold
+    FontColor Black
+	HeaderBackgroundColor MAIN
+    ArrowColor MAIN
+    ArrowFontColor MAIN
+    AttributeFontSize 12
+}
+skinparam roundcorner 5
+skinparam stereotypeCBackgroundColor White
+skinparam stereotypeEBackgroundColor Red
+skinparam stereotypeABackgroundColor Aqua
+skinparam classAttributeIconSize 0
+
+Sudoku *--> Player
+Sudoku *--> Board
+
+Board *--> "3x3" Column
+Board *--> "3x3" Row
+Board *--> "3x3" Box
+
+Column o-->"9" Square
+Row o-->"9" Square
+Box o-->"9" Square
+
+
+Square <|-- PlayableSquare
+Square <|-- FixedSquare
+
+class Number
+note right: Only Numbers 1 to 9
+
+PlayableSquare o--> "0..1" Number
+FixedSquare *--> "1" Number
+
+
+Player ..> Assignment
+Assignment ..> Number
+Assignment ..> PlayableSquare
+
+Assignment <|-- ValidAssignment
+Assignment <|-- DeleteAssignment
+Assignment <|-- InvalidAssignment
+ValidAssignment <|-- WinnerAssignment
+
+Assignment ..> Column
+Assignment ..> Row
+Assignment ..> Box
+
+@enduml

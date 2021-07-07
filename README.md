@@ -3,7 +3,7 @@ Práctica Máster Desarrollo Julio - SudokuTeam
 
 **Índice**
 
-1. [¿Cómo se juega el sudoku paso a paso?](#video)
+1. [¿Cómo se juega el sudoku paso a paso?](#video-explicativo)
 2. [Modelo del dominio](#modelo-del-dominio)   
 3. [Prototipo de Interfaz](#prototipo-de-interfaz)
 ## Video Explicativo
@@ -12,7 +12,7 @@ Práctica Máster Desarrollo Julio - SudokuTeam
 
 ## Modelo del dominio  
   
-![Sudoku](requirements/docs/images/SudoTeam_Sudoku_DomainMode_v2.png)  
+![Sudoku](requirements/docs/images/SudoTeam_Sudoku_DomainMode_v3.png)  
   
 ## Prototipo de Interfaz
 
