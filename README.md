@@ -40,14 +40,13 @@ Práctica Máster Desarrollo Julio - SudokuTeam
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select square to assign: K10+
+Select square to assign: K10+3
  * Wrong square
-Select square to assign: H7+
+Select square to assign: H7+1
  * This square has a fixed value
-Select square to assign: H8+
-Enter a number: 10
+Select square to assign: H8+10
  * Not a valid number {1..9}
-Enter a number: 2
+Select square to assign: H8+2
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -70,8 +69,7 @@ Enter a number: 2
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select square to assign: B2+
-Enter a number: 8
+Select square to assign: B2+8
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -93,7 +91,7 @@ Enter a number: 8
  1 ║   |   |   ║   | 8 |   ║   | 7 | 9 ║
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
-     
+
 Select square to assign: H9-
  * This square is empty
 Select square to assign: H8-
@@ -118,15 +116,14 @@ Select square to assign: H8-
  1 ║   |   |   ║   | 8 |   ║   | 7 | 9 ║
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
-     
-Select square to assign: H8+
-Enter a number: 7
+
+Select square to assign: H8+7
  * Number 7 has already been assigned at this column.
-Enter a number: 1
+Select square to assign: H8+1
  * Number 1 has already been assigned at this row.
-Enter a number: 6
- * Number 1 has already been assigned at this box.
-Enter a number: 4
+Select square to assign: H8+6
+ * Number 6 has already been assigned at this box.
+Select square to assign: H8+4
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -174,8 +171,7 @@ Enter a number: 4
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select coordinate to assign: G6+
-Enter a number: 4
+Select coordinate to assign: G6+4
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 | 4 ║ 6 | 7 | 8 ║ 9 | 1 | 2 ║
