@@ -34,13 +34,13 @@ Box o-->"9" Square
 
 
 Square <|-- PlayableSquare
-Square <|-- FixedSquare
+Square <|-- HintSquare
 
 class Number
 note right: Only Numbers 1 to 9
 
 PlayableSquare o--> "0..1" Number
-FixedSquare *--> "1" Number
+HintSquare *--> "1" Number
 
 
 Player ..> Assignment
