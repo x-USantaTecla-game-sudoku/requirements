@@ -17,12 +17,13 @@ Práctica Máster Desarrollo Julio - SudokuTeam
   
 ## Diagrama de clases  
   
-![Sudoku](requirements/docs/images/SudoTeam_Sudoku_ClassDiagram_v4.png)  
+![Sudoku](requirements/docs/images/SudoTeam_Sudoku_ClassDiagram_v5.png)  
   
 ## Prototipo de Interfaz
 
 ```
---- SUDOKU ---
+
+---------------- SUDOKU ----------------
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -45,13 +46,20 @@ Práctica Máster Desarrollo Julio - SudokuTeam
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select square to assign: K10+3
- * Wrong square
-Select square to assign: H7+1
+Select a square to assign: K10+3
+ * Not a valid format:
+        Assign: [A..I][1..9]+[1..9]
+        Remove: [A..I][1..9]-
+        
+Select a square to assign: H8+10
+ * Not a valid format:
+        Assign: [A..I][1..9]+[1..9]
+        Remove: [A..I][1..9]-
+        
+Select a square to assign: H7+1
  * This square has a fixed value
-Select square to assign: H8+10
- * Not a valid number {1..9}
-Select square to assign: H8+2
+ 
+Select a square to assign: H8+2
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -74,7 +82,7 @@ Select square to assign: H8+2
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select square to assign: B2+8
+Select a square to assign: B2+8
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -97,9 +105,8 @@ Select square to assign: B2+8
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select square to assign: H9-
- * This square is empty
-Select square to assign: H8-
+
+Select a square to assign: H8-
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -122,13 +129,16 @@ Select square to assign: H8-
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select square to assign: H8+7
- * Number 7 has already been assigned at this column.
-Select square to assign: H8+1
- * Number 1 has already been assigned at this row.
-Select square to assign: H8+6
- * Number 6 has already been assigned at this box.
-Select square to assign: H8+4
+Select a square to assign: H8+7
+ * Number has already been assigned at this column.
+ 
+Select a square to assign: H8+1
+ * Number has already been assigned at this row.
+ 
+Select a square to assign: H8+6
+ * Number has already been assigned at this box.
+ 
+Select a square to assign: H8+4
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 |   ║   | 7 |   ║   |   |   ║
@@ -176,7 +186,7 @@ Select square to assign: H8+4
    ╚═══════════╩═══════════╩═══════════╝
      A   B   C   D   E   F   G   H   I
 
-Select coordinate to assign: G6+4
+Select a square to assign: G6+4
 
    ╔═══════════╦═══════════╦═══════════╗
  9 ║ 5 | 3 | 4 ║ 6 | 7 | 8 ║ 9 | 1 | 2 ║
