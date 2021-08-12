@@ -17,7 +17,7 @@ Práctica Máster Desarrollo Julio - SudokuTeam
   
 ## Diagrama de clases  
   
-![Sudoku](requirements/docs/images/SudoTeam_Sudoku_ClassDiagram_v5.png)  
+![Sudoku](requirements/docs/images/SudoTeam_Sudoku_ClassDiagram_v6.png)  
   
 ## Prototipo de Interfaz
 
